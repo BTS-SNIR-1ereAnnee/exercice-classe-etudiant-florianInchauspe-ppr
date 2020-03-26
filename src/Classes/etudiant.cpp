@@ -1,3 +1,0 @@
-/*
- * etudiant.cpp
- */
