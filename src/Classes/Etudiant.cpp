@@ -75,7 +75,7 @@ void Etudiant::setNom(std::string val)
 void Etudiant::affiche()
 {
 
-    std::cout << this->m_nom << " : " << this->m_x << "/20 , " << this->m_y << "/20 \n";
+    std::cout << this->m_nom << " : " << this->m_x << "/20 , " << this->m_y << "/10 \n";
 
 }
 
