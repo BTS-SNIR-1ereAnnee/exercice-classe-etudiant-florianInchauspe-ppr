@@ -2,10 +2,9 @@
  * étudiant.h
  */
  
- #include <iostream>
- 
- 
-class snake
+#include <iostream>
+
+class Etudiant
 {
     /** Default constructor */
     Etudiant();
@@ -13,7 +12,7 @@ class snake
      * \param x première note
      * \param y seconde note
      */
-    Etudiant(string nom , int x, int y);
+    Etudiant(std::string nom , int x, int y);
     
     /** Default destructor */
     ~Etudiant();
@@ -37,11 +36,11 @@ class snake
     /** Access m_nom
      * \return The current value of m_nom
      */
-    string getNom() const;
+    std::string getNom() const;
     /** Set m_nom
      * \param val New value to set
      */
-    void setNom(string val);
+    void setNom(std::string val);
     
     /** affiche le nom et les note de l'etudiant
     */
@@ -56,6 +55,6 @@ private:
 
     int m_x; //!< Member variable "m_x"
     int m_y; //!< Member variable "m_y" 
-    string m_nom ; //!< Member variable "m_nom"
+    std::string m_nom ; //!< Member variable "m_nom"
     
-}
+};
